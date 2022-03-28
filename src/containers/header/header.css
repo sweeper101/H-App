@@ -1,7 +1,7 @@
 .header {
     display: flex;
     flex-direction: row;
-    margin-top: 2rem;
+    margin-top: 4.5rem;
     position: relative;
 }
 
@@ -12,7 +12,7 @@
     align-items: flex-start;
     flex-direction: column;
 
-    margin-right: 3rem;
+    margin-right: 1rem;
 }
 
 .circle{
@@ -79,8 +79,8 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    background: #0026ffc9;
-    border: 2px solid #0026ffc9;
+    background: #000000;
+    border: 2px solid #000000;
     padding: 0 1rem;
     color: rgb(255, 255, 255);
     cursor: pointer;
