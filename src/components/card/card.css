@@ -1,0 +1,181 @@
+.form_container{
+    /* display: flex;  */
+    background-color: #f7f7f7; 
+    align-items: center; 
+    /* min-height: 100vh;  */
+    justify-content: center;
+}
+.continer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+   
+}
+
+.container_form{
+    border: 1px solid #dfdfdf;
+    padding: 1.25rem; 
+margin-top: 5rem;
+margin-bottom: 5rem; 
+background-color: #ffffff; 
+max-width: 36rem; 
+border-radius: 0.375rem; 
+box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+margin-left: auto;
+margin-right: auto;
+display: flex;
+flex-direction: column;
+
+
+
+}
+
+.container_form-text{
+    text-align: center;
+}
+
+.container_form-text h1 {
+    margin-top: 0.75rem;
+margin-bottom: 0.75rem; 
+color: #374151; 
+font-size: 1.875rem;
+line-height: 2.25rem; 
+font-weight: 600; 
+
+}
+
+.container_form-text p{
+    color: #9CA3AF; 
+}
+
+.container_form_name{
+    margin-bottom: 1.5rem; 
+
+}
+
+.container_form_name label{
+
+    display: block; 
+margin-bottom: 0.5rem; 
+color: #4B5563; 
+font-size: 0.875rem;
+line-height: 1.25rem; 
+
+}
+
+.container_form_name input {
+    padding-top: 0.5rem;
+padding-bottom: 0.5rem; 
+padding-left: 0.75rem;
+padding-right: 0.75rem; 
+color: #000000; 
+width: 100%; 
+border-radius: 0.375rem; 
+border-width: 1px; 
+border-color: #D1D5DB; 
+}
+
+.container_form_email{
+    margin-bottom: 1.5rem; 
+
+}
+
+.container_form_email label{
+
+    display: block; 
+    margin-bottom: 0.5rem; 
+    color: #4B5563; 
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+    
+
+}
+
+.container_form_email input {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    padding-left: 0.75rem;
+    padding-right: 0.75rem; 
+    color: #000000; 
+    width: 100%; 
+    border-radius: 0.375rem; 
+    border-width: 1px; 
+    border-color: #D1D5DB; 
+    
+}
+
+.container_form_number{
+    margin-bottom: 1.5rem; 
+
+}
+
+.container_form_number label{
+
+    color: #4B5563; 
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+    
+
+}
+
+.container_form_number input {
+    padding-top: 0.5rem;
+padding-bottom: 0.5rem; 
+padding-left: 0.75rem;
+padding-right: 0.75rem; 
+color: #000000; 
+width: 100%; 
+border-radius: 0.375rem; 
+border-width: 1px; 
+border-color: #D1D5DB; 
+    
+}
+
+.container_form_message{
+    margin-bottom: 1.5rem; 
+
+}
+
+.container_form_message label{
+
+    display: block; 
+margin-bottom: 0.5rem; 
+color: #4B5563; 
+font-size: 0.875rem;
+line-height: 1.25rem; 
+    
+
+}
+
+.container_form_message textarea {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    padding-left: 0.75rem;
+    padding-right: 0.75rem; 
+    color: #000000; 
+    width: 100%; 
+    border-radius: 0.375rem; 
+    border-width: 1px; 
+    border-color: #D1D5DB; 
+    
+}
+
+.container_form_send{
+    margin-bottom: 1.5rem; 
+
+}
+
+.container_form_send button{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; 
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
+    background-color: #6366F1; 
+    color: #ffffff; 
+    width: 100%; 
+    border-radius: 0.375rem; 
+    
+
+}
