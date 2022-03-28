@@ -44,18 +44,23 @@ const Header = () => (
           className="mySwiper"
         >
           <SwiperSlide>
+            <h1>Barbers</h1>
             <img src="./bab.jpg" />
           </SwiperSlide>
           <SwiperSlide>
+            <h1>Cleaning Services</h1>
             <img src="./cleaning.jpeg" />
           </SwiperSlide>
           <SwiperSlide>
+            <h1>Health and Fitness</h1>
             <img src="./fitness.png" />
           </SwiperSlide>
           <SwiperSlide>
+            <h1>Hair and Beaty</h1>
             <img src="./hair4.jpeg" />
           </SwiperSlide>
           <SwiperSlide>
+            <h1>Nails and Cosmetics</h1>
             <img src="./nails.webp" />
           </SwiperSlide>
         </Swiper>
