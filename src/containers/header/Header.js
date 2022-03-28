@@ -1,5 +1,15 @@
-import React from "react";
 import "./header.css";
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+// import required modules
+import { Autoplay, Pagination, Navigation } from "swiper";
 
 const Header = () => (
   <div className="section">
@@ -18,10 +28,38 @@ const Header = () => (
           <button type="button">Get Started</button>
         </div>
       </div>
-
-      <div className="header-image">
-        <img src="./PinClipart.com_no-cell-phone-clip_2129001.png" />
-      </div>
+      <>
+        <Swiper
+          spaceBetween={30}
+          centeredSlides={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          modules={[Autoplay, Pagination, Navigation]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <img src="./bab.jpg" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="./cleaning.jpeg" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="./fitness.png" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="./hair4.jpeg" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="./nails.webp" />
+          </SwiperSlide>
+        </Swiper>
+      </>
     </div>
   </div>
 );

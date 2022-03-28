@@ -15,7 +15,7 @@ import { Pagination, Navigation } from "swiper";
 export default function SwiperController() {
   return (
     <>
-      <Swiper
+      {/* <Swiper
         slidesPerView={3}
         spaceBetween={30}
         slidesPerGroup={2}
@@ -43,7 +43,7 @@ export default function SwiperController() {
         <SwiperSlide>
           <img src="./nails.webp" />
         </SwiperSlide>
-      </Swiper>
+      </Swiper> */}
     </>
   );
 }
