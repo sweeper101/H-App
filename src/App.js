@@ -1,4 +1,4 @@
-import { Header, Footer } from "./containers";
+import { Header, Footer, Howto, Services } from "./containers";
 import { Card, Navbar, Brand, SwiperController, CTA } from "./components";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Home, Login, Profile, Register } from "./pages";
@@ -14,6 +14,8 @@ function App() {
           <Route exact path="/">
             <Header />
             <CTA />
+            <Howto />
+            <Services />
 
             {/* <SwiperController /> */}
 
@@ -30,6 +32,7 @@ function App() {
           </Route>
           {/* <Route exact path="/market"></Route> */}
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
